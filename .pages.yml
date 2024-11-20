@@ -4,7 +4,7 @@ media:
 
 content:
   - name: posts
-    label: Blog Posts
+    label: Posts
     type: collection
     path: src/posts
     filename: "{year}-{month}-{day}-{primary}.md"
@@ -14,7 +14,7 @@ content:
       - { name: body, label: Body, type: rich-text }
 
   - name: homepage
-    label: Home Page
+    label: Home
     type: file
     path: src/index.md
     fields:
