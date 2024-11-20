@@ -18,4 +18,4 @@ content:
     type: file
     path: src/index.md
     fields:
-      - { name: title, label: Edit the page from the github repo!!!, type: string, editable: false}
+      - { name: title, label: Home, type: body, widget: markdown, required: true}
