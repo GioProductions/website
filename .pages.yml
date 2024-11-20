@@ -17,5 +17,3 @@ content:
     label: Home
     type: file
     path: src/index.md
-    fields:
-      - { name: title, label: Home, type: none, required: true}
