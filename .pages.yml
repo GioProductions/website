@@ -18,4 +18,4 @@ content:
     type: file
     path: src/index.md
     fields:
-      - { name: title, label: Home, type: body, widget: markdown, required: true}
+      - { name: title, label: Home, type: none required: true}
